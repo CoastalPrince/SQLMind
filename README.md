@@ -220,16 +220,6 @@ Generate SQL from a natural language question.
   "validated": true,
   "corrections": 0
 }
-```
-
----|---|---|
-| Parameters | 1.1B | 1.5B |
-| Instruction tuning | Weak | Strong (RLHF-aligned) |
-| SQL accuracy | Baseline | Improved |
-| VRAM (4-bit) | ~4 GB | ~4 GB |
-| Context length | 2048 | 32768 |
-
----
 
 ## 📋 Requirements
 
