@@ -1,0 +1,11 @@
+# SQLMind APP — install into app venv
+# python -m venv venv
+# venv\Scripts\activate  (Windows) or source venv/bin/activate (Linux/Mac)
+# pip install -r requirements_app.txt
+
+PyQt6>=6.6.0
+psycopg2-binary>=2.9.9
+PyMySQL>=1.1.0
+pandas>=2.2.0
+python-dotenv>=1.0.0
+sqlglot>=23.0.0

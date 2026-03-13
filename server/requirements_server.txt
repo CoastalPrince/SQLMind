@@ -1,0 +1,21 @@
+# SQLMind SERVER — install globally (no venv)
+# pip install -r requirements_server.txt
+#
+# For GPU (CUDA 12.1):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# For CPU only:
+#   pip install torch torchvision torchaudio
+# For CUDA 11.8:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# NOTE: Qwen2.5 requires trust_remote_code=True — no extra pip package needed.
+# Optional speedup on CUDA: pip install flash-attn --no-build-isolation
+
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.6.0
+transformers>=4.45.0
+peft>=0.13.0
+accelerate>=0.34.0
+bitsandbytes>=0.43.0
+sqlglot>=23.0.0
