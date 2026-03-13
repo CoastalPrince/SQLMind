@@ -220,6 +220,7 @@ Generate SQL from a natural language question.
   "validated": true,
   "corrections": 0
 }
+```
 
 ## 📋 Requirements
 
